@@ -23,7 +23,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/chiacndr500/AutoTwtT2/main/DuplTwi_R0_1_var.py -OutFile "C:\1Twitch\DuplTwi_R0_1_var.py"
         Invoke-WebRequest https://raw.githubusercontent.com/chiacndr500/AutoTwtT2/main/DuplTwi_R0_1.py -OutFile "C:\1Twitch\DuplTwi_R0_1.py"
       env:
-        SESSION_DATA: ${{ secrets.SESSION_DATA_2 }}
+        SESSION_DATA: ${{ secrets.S2_3 }}
     - name: Descomprimir Datos
       run: |
         cd "C:\Users\runneradmin\.config"
